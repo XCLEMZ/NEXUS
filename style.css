@@ -12,6 +12,11 @@ a{
     color: #000;
 }
 
+img{
+    object-fit: cover;
+    object-position: top;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
 
 nav{
     padding: 20px 148px;
@@ -102,8 +107,8 @@ nav .nav-links a.selected{
 }
 
 .main img{
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     border-radius:50%;
     animation: rotateImage 8.5s linear infinite;
 }
