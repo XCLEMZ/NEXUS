@@ -109,7 +109,7 @@ nav .nav-links a.selected{
 .main img{
     width: 200px;
     height: 200px;
-    border-radius: 50%;
+    border-radius:50%;
     animation: rotateImage 8.5s linear infinite;
 }
 
